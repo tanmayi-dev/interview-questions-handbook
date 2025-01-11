@@ -1,5 +1,7 @@
 # Interview Questions Handbook - Last Minute Guide
 
+[SOLUTIONS](https://github.com/tanmayi-dev/interview-practice-questions/tree/main)
+
 These are just questions for last minute preparation without the solutions.
 Solutions can be found in the folder - links will be added under each question
 
