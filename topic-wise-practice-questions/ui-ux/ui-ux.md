@@ -1,0 +1,55 @@
+## UX Designer Interview Questions
+
+- What is UX design?
+- How is UX Design different from UI Design?
+- What makes a good UX Designer?
+- What are the important skills for a UX Designer?
+  - prototyping, user flow, wireframing, mockups, visual design software, collaboration, communication and presentation
+- Why did you choose UX Design?
+  - problem solving, empathetic, curious
+  - visual elements, storyboarding, wireframing
+- On the Spectrum of UX Researcher to UX Designer to Visual Designer, Where Do You See Yourself and Why?
+- Tell me about some of your favourite examples of good UX
+- Explain your design process.
+- What is meant by design thinking?
+  - empathize, define, ideate, prototype, test
+- Walk me through your workflow
+- What kind of research methods do you use?
+- How do you respond to negative feedbac?
+- Tell me about your most/least successful UX design project
+- How would you improve the UX of our product?
+- The Whiteboard Challenge (Hands-on design challenge) - [Generate challenge](https://designercize.com/)
+- How Do You Decide Which Features to Add to Your Product?
+- How Do You Hand Over Your Designs to the Developers?
+- What are some of the biggest trends in the UX Design industry right now?
+- What is your approach to making websites and platforms accessible to all user groups, including users with visual, hearing, and motor disabilities?
+
+## Figma Related Questions
+
+- What is Figma?
+- Why is Figma so widely used?
+- What are the ways to install Figma?
+- What is the difference between UX and UI design in Figma?
+- What does the Figma wireframe mean?
+- What is low-fidelity and high-fidelity in Figma?
+- What is Figma Design System & Component Library?
+- What is the main difference between Sketch and Figma?
+- What is Frames in Figma?
+- What is Groups in Figma?
+- Why to use frames than groups Figma?
+- What is Figma plugins?
+- How to add and use plugins in Figma?
+- What is nesting in Figma?
+- What is prototype in Figma?
+- How do you optimize a Figma prototype?
+- How to create a Frame in Figma?
+- How to organize Figma files of design system?
+- What are the best way to manage libraries for your design team in Figma?
+- How to create pages in Figma file?
+- How to add a link to an entire text layer in Figma?
+- How to move a page from one Figma file to another?
+- Can you build a website in Figma?
+- Can we group pages in Figma?
+- How to convert Figma to HTML?
+- How to improve prototyping workflow in Figma?
+- How do we connect two flows in Figma?

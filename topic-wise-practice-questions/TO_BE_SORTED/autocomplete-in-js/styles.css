@@ -1,0 +1,45 @@
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for the input element */
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the results popup */
+.results-popup {
+  display: none; /* Hidden by default */
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 300px; /* Match input width */
+  max-height: 200px; /* Limit height */
+  overflow-y: auto; /* Enable scrolling for long lists */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it is on top */
+}
+
+/* Style for the list items */
+.results-popup ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+/* Style for each list item */
+.results-popup li {
+  padding: 10px; /* Add padding */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Change background color on hover */
+.results-popup li:hover {
+  background-color: #f0f0f0;
+}

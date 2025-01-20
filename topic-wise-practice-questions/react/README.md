@@ -1,0 +1,100 @@
+# React
+
+### Index
+
+- [Questions](#questions)
+- [Questions with Solutions](./solutions.md)
+- [Coding Tasks](./coding-tasks/README.md)
+
+
+## Questions <a id="questions"></a>
+
+- Explain Rules of React
+- What is Virtual DOM ? and why is it used ?
+- Explain how React code acutlaly results in visual changes on the user's browser in as much detail as possible
+- How does React's Virtual DOM work, and what are its advantages over the real DOM ?
+- What is critical rendering path ?
+- Virtual DOM and Reconciliation Basics - [faq internals](https://legacy.reactjs.org/docs/reconciliation.html)
+  - When is the component remounted (when is state reset) ? [preserving and resetting state](https://react.dev/learn/preserving-and-resetting-state)
+  - [Coding Task : Nested component vs render function](./coding-tasks/nested-component-vs-render-function/README.md)
+    - Describe differences between `ComponentA` and `ComponentB`
+    - Are there any violations of React Rules ? What are the consequences ? 
+- What's the difference between `reflow` and `repaint`?
+  - `reflow`
+    - changes structure or layout of the page
+    - changes to width, height, position, DOM changes
+    - more expensive compared to repaint
+    - width, height, margin, display
+  - `repaint` happens when
+    - changes visual appearance without affecting layout
+    - changes to color, background, visibility
+    - less expensive, but frequent repaints can degrade performance
+    - color, background-color, visibility, border-color
+- When does react component re-render?
+- What is React Fiber ? - [ref](https://github.com/acdlite/react-fiber-architecture)
+- Can you explain concept of Container and Presentation components ?
+- What are equivalents of lifecycle methods in Class based components, when working with Functional Components ?
+- What are the differences between functional and class components ?
+- How do components share data ?
+- What is prop drilling in React and how can it be avoided ?
+- Difference between state and props
+- Explain difference between `derived state` and `essential state`
+  - Give me an example of `derived state` 
+- What is Context ? - [ref](https://react.dev/learn/passing-data-deeply-with-context)
+- What is React's Context API, and how can you use it to manage global state ?
+- What state management libraries are you familiar with ? Pick one and describe its benefits
+- Explain rules of React Hooks ?
+- Name Reack hooks you know
+- What are hooks ? How do they improve functional component functionality ?
+- Present candidate with a useState with extensive computation inside. Ask to resolve the issue
+  - `useMemo` should be used to resolve it
+- Can you wrap a hook in `if` statement ? Why not ?
+- What are custom hooks ? What would you use them for ?
+- Write a custom hook. Explain its lifecycle
+- Create custom hook that uses async await in useEffect 
+- What is a pure function and how does it relate to React ?
+- Use hooks to load data and render them
+- Why should render functions (functional components) be pure and have no side effects ?
+  - How to handle side effects ?
+  - `useEffect` - [ref](https://react.dev/learn/synchronizing-with-effects)
+- How can you handle side effects in React using `useEffect` ?
+- Can `useEffect` accept an `async` callback function ?
+- `useMemo` vs `useCallback`
+- `useMemo` - [ref](https://react.dev/reference/react/useMemo)
+  - How do you decide when to use `useMemo` ?
+  - Can `useMemo` be used to skip re-renders of a child component ? What are the use cases and requirements ?
+- `useCallback` - [ref](https://react.dev/reference/react/useCallback)
+  - Why use it ? What exactly is achieved by memoizing a callback ?
+- `React.memo` (`memo`) - [ref](https://react.dev/reference/react/memo) 
+- Can you describe me how lists (loops) works in React ?
+- `Ref` - what is it and why do we use it ?
+- What is a `ref` attribute on HTML elements good for ?
+- What is `forwardRef` function good for ?
+- Are you familiar with `useLayoutEffect` ? and how is it different from `useEffect` ?
+- Have you heard of Portals ? What are they used for ? When would you use them ?
+- Explain `createPortal` - [ref](https://react.dev/reference/react-dom/createPortal)
+- What are Controlled and Uncontrolled components ? When should you use each ?
+- How can you handle form data in React components ?
+- Data binding - how is it implemented in react ? Are you familiar with any of these - `formik`, `useForm`, `useState` ?
+- What is a Fragment ?
+- What ARIA attribute do you know ? What do they do ?
+- What is one-way binding and two-way binding ?
+- Routing - nesting ?
+- Explain the concept of higher-order components (HOCs) in React.
+- When do we need a Higher Order Component ?
+- How can you create a react app without `create-react-app` ? - [answer](./solutions.md/#how-can-you-create-a-react-app-without-create-react-app-)
+- How can you optimize React performance using code splitting ?
+- Explain the role of keys in React lists and why are they essential
+- `key` property - [redering lists](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key)
+  - why is it needed ?
+  - what happens if it's omitted ?
+  - what happens if you use `index`?
+  - what to do if you don't have unique keys ? 
+- [Coding Task : Display Users](./coding-tasks/display-users/README.md)
+  - talk about `key` prop
+  - ask to add a toggle to sort in ascending / descending order
+    - see if candidate will clone array or mutate a prop
+  - talk about `useMemo` applications
+- What is the significance of React Fragments, and when should you use them ?
+- [Coding Task : Fix Count](./coding-tasks/fix-count/README.md)
+- [Coding Task : Set Timeout](./coding-tasks/set-timeout/README.md)
